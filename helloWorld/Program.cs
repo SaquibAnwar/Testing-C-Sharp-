@@ -20,10 +20,10 @@ namespace helloWorld
 
             Console.WriteLine("What is your name ? ");
             string firstName;
-            Console.WriteLine("Enter your first name : ");
+            Console.Write("Enter your first name : ");
             firstName = Console.ReadLine();
             string lastName;
-            Console.WriteLine("Enter your last Name : ");
+            Console.Write("Enter your last Name : ");
             lastName = Console.ReadLine();
 
             Console.WriteLine("Hello, " + firstName + " " + lastName);
